@@ -166,7 +166,7 @@ export default function Home() {
                 showImage ? 'opacity-100' : 'opacity-0'
               }`}>
                 <video
-                  src="/images/image_profile_gif.MOV"
+                  src="/images/image_profile_gif.mov"
                   className="object-cover rounded-full border-4 border-white shadow-lg w-full h-full"
                   autoPlay
                   muted
