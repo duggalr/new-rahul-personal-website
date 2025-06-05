@@ -54,7 +54,7 @@ export default function Home() {
     { icon: FaYoutube, url: "https://www.youtube.com/@duggalr", label: "YouTube" },
     { icon: FaTwitter, url: "https://x.com/duggalr42", label: "Twitter" },
     { icon: FaTiktok, url: "https://www.tiktok.com/@duggalr42", label: "TikTok" },
-    { icon: FaInstagram, url: "https://instagram.com/yourusername", label: "Instagram" },
+    // { icon: FaInstagram, url: "https://instagram.com/yourusername", label: "Instagram" },
   ];
 
   useEffect(() => {
