@@ -193,12 +193,12 @@ export default function Home() {
                   <p className={`font-sans text-[17.5px] text-gray-600 font-light pl-0 pt-5 transition-opacity duration-500 ${
                     showDescription ? 'opacity-100' : 'opacity-0'
                   }`}>
-                    Currently, I'm entirely focused on building <a href="https://www.companionai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-200 transform hover:scale-110">Companion AI</a>.
+                    Currently, I&apos;m entirely focused on building <a href="https://www.companionai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-200 transform hover:scale-110">Companion AI</a>.
                   </p>
                   <p className={`text-[17.5px] text-gray-600 font-light pl-0 transition-opacity duration-500 ${
                     showDescription ? 'opacity-100' : 'opacity-0'
                   }`}>
-                    I'm also sharing this journey on <a href="https://www.youtube.com/@duggalr" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">YouTube</a>.
+                    I&apos;m also sharing this journey on <a href="https://www.youtube.com/@duggalr" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">YouTube</a>.
                   </p>
                   <p className={`text-[17.5px] text-gray-600 font-light pl-0 transition-opacity duration-500 ${
                     showDescription ? 'opacity-100' : 'opacity-0'
