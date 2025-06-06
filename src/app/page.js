@@ -51,6 +51,14 @@ export default function Home() {
         isCurrent: false
     },
     {
+        title: "Conversational AI Search over ArXiv Research Papers",
+        description: "A conversational AI search over ArXiv research papers.",
+        github: null,
+        youtube: ["https://www.youtube.com/watch?v=VpFRkbKprLE"],
+        website: null,
+        isCurrent: false
+    },
+    {
         title: "Exploring alternative AGI methods",
         description: "Played around with Assembly Calculus, Ben Gortzel's work, evolutionary algorithms, and more.",
         github: null,
@@ -58,14 +66,6 @@ export default function Home() {
         website: null,
         isCurrent: false
     }
-    // {
-    //     title: "Subtle",
-    //     description: "My clothing brand. (coming soon)",
-    //     github: null,
-    //     youtube: null,
-    //     website: null,
-    //     isCurrent: false
-    // }
   ];
 
   const socialLinks = [
@@ -180,7 +180,7 @@ export default function Home() {
                     }}
                 />
 
-                <div className="flex flex-col items-center w-full mt-5">
+                <div className="flex flex-col items-center w-full mt-8">
                     <div className={`flex justify-center space-x-7 pt-4 transition-all duration-500 transform ${
                         showSocials ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     }`}>
@@ -212,7 +212,7 @@ export default function Home() {
                         }`}></span>
                     </h1>
 
-                    <p className={`font-sans text-[18px] text-gray-600 font-light pl-0 pt-1 transition-all duration-500 transform ${
+                    <p className={`font-sans text-[18px] text-gray-600 font-light leading-8 pl-0 pt-1 transition-all duration-500 transform ${
                         showDescription ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     }`}>
                         Currently, I&apos;m entirely focused on building <a href="https://www.companionai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-200 transform hover:scale-110">Companion AI</a> and Subtle <span className="text-gray-600">(coming soon)</span>.
@@ -228,7 +228,7 @@ export default function Home() {
                         showProjectsTitle ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     }`}>A (very) few of my past projects include:</p>
 
-                    <ul className="space-y-6">
+                    <ul className="space-y-8 pt-2">
                         {projects.filter(p => !p.isCurrent).map((project, index) => (
                             <li key={index} className={`text-[16px] text-gray-600 transition-all duration-500 transform ${
                                 visibleProjects.includes(index) ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
