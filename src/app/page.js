@@ -216,7 +216,7 @@ export default function Home() {
                         showDescription ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     }`}>
                         Currently, I&apos;m entirely focused on building <a href="https://www.companionai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-200 transform hover:scale-110">Companion AI</a> and Subtle <span className="text-gray-600">(coming soon)</span>.
-                        I&apos;m also sharing a lot of this journey on <a href="https://www.youtube.com/@duggalr" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">YouTube</a>.
+                        I also create <a href="https://www.youtube.com/@duggalr" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">youtube videos</a> in my spare time.
                     </p>
 
                 </div>
