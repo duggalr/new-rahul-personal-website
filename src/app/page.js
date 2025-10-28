@@ -20,18 +20,19 @@ export default function Home() {
   const projects = [
     {
         title: "Companion AI",
-        description: "Your smart digital brain for the web.",
+        description: "Companion is your personal AI tutor for learning to code - guiding you through exercises, side projects, and offering real-time help. It’s like having a tutor available 24/7 as you learn, practice, and build.",
+        github: null,
         youtube: ["https://www.youtube.com/@companionaidev"],
         website: "https://www.companionai.dev",
         isCurrent: true
     },
     {
-        title: "AI Programming Tutor",
-        description: "An AI programming tutor with pre-loaded questions from MIT OCW and LeetCode.",
-        github: ["https://github.com/duggalr/companion-frontend", "https://github.com/duggalr/companion-backend"],
-        youtube: ["https://www.youtube.com/watch?v=4Plt_sh_cIg"],
-        website: null,
-        isCurrent: false
+        title: "Joygram",
+        description: "Instantly turn your photos, words, and memories into beautiful, interactive digital cardsbeautiful, interactive digital cards — perfect for birthdays, anniversaries, friendships, and more.birthdays, anniversaries, friendships, and more.",
+        github: null,
+        youtube: ["https://www.youtube.com/watch?v=wQO8VrzY9Ko"],
+        website: "https://www.joygram.io",
+        isCurrent: true
     },
     {
         title: "CreatorCoin",
@@ -215,8 +216,9 @@ export default function Home() {
                     <p className={`font-sans text-[18px] text-gray-600 font-light leading-8 pl-0 pt-1 transition-all duration-500 transform ${
                         showDescription ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     }`}>
-                        Currently, I&apos;m entirely focused on building <a href="https://www.companionai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-200 transform hover:scale-110">Companion AI</a> and Subtle <span className="text-gray-600">(coming soon)</span>.
-                        I also create <a href="https://www.youtube.com/@duggalr" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">youtube videos</a> in my spare time.
+                        Currently, I&apos;m entirely focused on building Axia.
+                        {/* <a href="https://www.companionai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-200 transform hover:scale-110">Companion AI</a> and Subtle <span className="text-gray-600">(coming soon)</span>. */}
+                        I also create <a href="https://www.youtube.com/@duggalr" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">youtube</a> and <a href="https://www.tiktok.com/@duggalr42" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">tiktok</a> videos in my spare time.
                     </p>
 
                 </div>
