@@ -24,7 +24,7 @@ export default function Home() {
         github: null,
         youtube: ["https://www.youtube.com/@companionaidev"],
         website: "https://www.companionai.dev",
-        isCurrent: true
+        isCurrent: false
     },
     {
         title: "Joygram",
@@ -32,7 +32,7 @@ export default function Home() {
         github: null,
         youtube: ["https://www.youtube.com/watch?v=wQO8VrzY9Ko"],
         website: "https://www.joygram.io",
-        isCurrent: true
+        isCurrent: false
     },
     {
         title: "CreatorCoin",
@@ -73,7 +73,7 @@ export default function Home() {
     { icon: FaYoutube, url: "https://www.youtube.com/@duggalr", label: "YouTube" },
     { icon: FaTwitter, url: "https://x.com/duggalr42", label: "Twitter" },
     { icon: FaTiktok, url: "https://www.tiktok.com/@duggalr42", label: "TikTok" },
-    { icon: FaEnvelope, url: "mailto:duggalr42@gmail.com", label: "Email" },
+    { icon: FaEnvelope, url: "mailto:duggalrahulmain42@gmail.com", label: "Email" },
   ];
 
   useEffect(() => {
@@ -216,7 +216,7 @@ export default function Home() {
                     <p className={`font-sans text-[18px] text-gray-600 font-light leading-8 pl-0 pt-1 transition-all duration-500 transform ${
                         showDescription ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
                     }`}>
-                        Currently, I&apos;m entirely focused on building Axia.
+                        Currently, I&apos;m entirely focused on building Axia.&nbsp;
                         {/* <a href="https://www.companionai.dev" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition-colors duration-200 transform hover:scale-110">Companion AI</a> and Subtle <span className="text-gray-600">(coming soon)</span>. */}
                         I also create <a href="https://www.youtube.com/@duggalr" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">youtube</a> and <a href="https://www.tiktok.com/@duggalr42" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400 transition-colors duration-200 transform hover:scale-110">tiktok</a> videos in my spare time.
                     </p>
